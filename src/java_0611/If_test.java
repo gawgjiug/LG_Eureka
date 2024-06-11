@@ -10,6 +10,9 @@ public class If_test {
         if(hour <12){
             System.out.println("Okay i'm fine");
         }
+        else{
+            System.out.println("Good Afternoon");
+        }
 
     }
 }
