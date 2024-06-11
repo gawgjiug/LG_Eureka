@@ -14,15 +14,34 @@ public class Switch_Test_2 {
         int month = sc.nextInt();
         int day = 0;
 
-        if(month == 2){
+/*        if(month == 2){
             day = 28;
-        } else if (month == 4 || month == 6 || month == 11) {
+        } else if (month == 4 || month == 6 || month == 9 || month == 11) {
             day = 30;
         }
         else{
             day = 31;
         }
+        System.out.println(month + "월달의 마지막 날은 " + day +"일입니다.");*/
+
+        switch (month){
+
+            case 2:
+                day = 28;
+                break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                day = 30;
+                break;
+            default:
+                day = 31;
+        }
         System.out.println(month + "월달의 마지막 날은 " + day +"일입니다.");
+
+        /*if 문은 범위를 부여할 수 있지만 switch 문은 범위를 줄 수 없음
+        * ex) m < 2 .. */
 
 
     }
