@@ -1,4 +1,4 @@
-package Chap_02;
+package java_0610;
 
 public class Var1 {
     public static void main(String[] args) {
