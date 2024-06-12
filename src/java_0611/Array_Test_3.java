@@ -18,11 +18,30 @@ public class Array_Test_3 {
 
         Scanner sc = new Scanner(System.in);
 
-        String str[] = new String[10];
+/*        String str[] = new String[10];
 
         for(int i = 0; i< str.length; i++){
             str[i]= String.valueOf(sc.nextInt());
+        }*/
+
+        /* == 연산자 int 타입은 값을 비교함
+        new String일 경우 주소 비교
+        new -> 메모리를 따로 배정 받음 -> 주소가 다르다* /
+         */
+
+        int arr [] = new int[10];
+        int sum = 0;
+
+
+        for (int i = 0; i<arr.length; i++){
+            arr[i] = sc.nextInt();
+            sum += arr[i];
         }
+        double avg = sum /arr.length;
+
+        System.out.println(avg);
+
+
 
 
 
