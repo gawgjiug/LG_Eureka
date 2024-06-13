@@ -8,6 +8,20 @@ public class StudentDto {
     *  하지만 field 는 자동으로 기본값으로 초기화 됨
     * 필드는 클래스로부터 객체가 생성된 후에 사용 가능함 */
     String name;
-    String major;
+    String tel;
+
+    void StudentDto (){ /*결과 없다 - > void return 하지않음*/
+
+        System.out.println("StudentDto 생성 됨");
+        System.out.println("학번 : " + hakbun);
+        System.out.println("이름 : " + name );
+        System.out.println("전화번호 : "+ tel);
+    }
+    public StudentDto  (String h, String n ,String t){
+        this.hakbun = h;
+        this.name = n;
+        this.tel = t;
+
+    }
 
 }
