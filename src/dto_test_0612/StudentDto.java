@@ -17,11 +17,14 @@ public class StudentDto {
         System.out.println("이름 : " + name );
         System.out.println("전화번호 : "+ tel);
     }
-    public StudentDto  (String h, String n ,String t){
-        this.hakbun = h;
-        this.name = n;
-        this.tel = t;
+    public StudentDto  (String hakbun, String name ,String tel){
+        this.hakbun = hakbun;
+        this.name = name;
+        this.tel = tel;
 
     }
+
+    /*오버로딩 : 메소드 이름은 같되 매개변수의 타입, 개수, 순서가 다른 메소드를 여러 개 선언하는 것
+    * this 키워드 : 객체 내부에서 인스턴스 멤버에 접근하기 위해 사용 -> */
 
 }
