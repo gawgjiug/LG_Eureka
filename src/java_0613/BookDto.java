@@ -6,6 +6,10 @@ public class BookDto {
     String isbn;
     int price;
 
+    /*정적 변수*/
+
+    static String pub ; /*static 출판사*/
+
 
     BookDto (String name, String isbn , int price){
         this.name = name;
