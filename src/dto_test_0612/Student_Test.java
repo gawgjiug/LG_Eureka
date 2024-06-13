@@ -6,6 +6,10 @@ public class Student_Test {
 
         d1.name = "곽지욱";
 
+        StudentDto d2 = new StudentDto();
+
+        d2.name = "김길동";
+
 
     }
 }
