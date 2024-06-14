@@ -39,6 +39,7 @@ public class Person_Dto {
     * private class 내부에서만 가능*/
 
     public void printInfo(){
+
         System.out.println("이름 = " + this.name);
         System.out.println("전화번호 = " + this.tel);
     }
