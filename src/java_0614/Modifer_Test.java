@@ -41,12 +41,20 @@ public class Modifer_Test {
         * public void set
         * 4. 내부 변수값 출력용 메서드 작성*/
 
-       Student_Dto studentDto = new Student_Dto();
+        System.out.println("-----------------");
+
+       Student_Dto studentDto = new Student_Dto("김철수","010-1234","100",
+               "컴공");
 
        studentDto.getName();
+       studentDto.printInfo();
 
        /*Student_Dto 클래스가 Person_Dto 클래스를 상속받았기 때문에
-       * Student_Dto 클래스에 선언되지 않은 메소드를 사용가능함.*/
+       * Student_Dto 클래스에 선언되지 않은 메소드를 사용가능함.
+       * 자식 생성자를 생성하면 자동으로 부모 생성자가 먼저 생성됨
+       * 상속 개념은 평가에 반드시 나옴
+       * super는 부모클래스를 지칭*/
+
 
 
 
