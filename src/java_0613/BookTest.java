@@ -22,6 +22,14 @@ public class BookTest {
         * */
         System.out.println(BookDto.pub);
 
+        System.out.println("-------");
+
+
+        bookDto.setName("자바의 정석");
+        System.out.println(bookDto.getName());
+
+        bookDto.PrintInfo();
+
 
     }
 }
