@@ -7,5 +7,17 @@ public class Student_Test {
 
         student.printInfo();
 
+        System.out.println("------------------------------------");
+
+        Emp emp = new Emp("곽지욱","010-5555-6666","1100","개발 1팀");
+        emp.printInfo();
+
+        System.out.println("------------------------------------");
+
+        emp.setBuseo("경영 1팀");
+        emp.printInfo();
+
+
+
     }
 }
