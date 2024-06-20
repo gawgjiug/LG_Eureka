@@ -1,6 +1,6 @@
 package java_0617;
 
-public  class Line extends Shape {
+public class Line extends Shape {
 
 
     private int x2,y2;

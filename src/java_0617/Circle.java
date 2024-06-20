@@ -1,6 +1,6 @@
 package java_0617;
 
-public  class Circle extends Shape {
+public class Circle extends Shape {
 
     private int x3,y3;
 
