@@ -7,7 +7,7 @@ public class PermutationTest {
     private static int[] arr; // 원소를 저장할 배열
     private static boolean[] visited; // 중복을 제거하기 위한 방문 처리
     public static void main(String[] args) {
-        n = 3;//전체개수
+        n = 4;//전체개수
         r = 2; // 선택할 갯수
         arr = new int[r]; //선택한 숫자 저장소
         visited = new boolean[n + 1];//숫자 선택 여부 지정
