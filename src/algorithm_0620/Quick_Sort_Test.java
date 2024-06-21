@@ -52,6 +52,16 @@ public class Quick_Sort_Test {
             if(pl < right) QuickSort(arr,pl,right);
 
 
+        /*pl은 배열 왼쪽 끝을 가리키고 pr은 배열의 오른쪽 끝을 가리킴
+         * x 는 pivot을 말함
+         * 반복문 시작 :
+         * do while 루프는 pl이 pr 보다 작거나 같은 동안 반복됨
+         * do 블록내의 코드가 먼저 실행 되고 while 조건 평가
+         * pl이 x 보다 작으면 ++ -> 이 과정이 피벗보다 큰 값을 찾을 때 까지 반복 됨
+         * pr이 피벗 값 보다 크면 -- -> 이 과정이 피봇보다 작은 값을 찾을 때 까지 반복됨
+         * pl과 pr의 위치가 역전 되는 순간 if문으로 재귀호출 pr이 0아니면 0~ pr 까지 다시 퀵 정렬
+         * pl이 right보다 작으면 (인덱스 끝번호가 아니라면) pl~ right까지 다시 퀵 정렬*/
+
     }
 
     private static void swap(int[] arr, int idleft, int idright) {
