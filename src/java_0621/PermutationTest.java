@@ -40,6 +40,8 @@ public class PermutationTest {
     /*1. 첫 번째 호출 permutation(0)
     cnt = 0
     r과 같지 않으므로 for 루프에 진입.
+
+
     2. 첫 번째 반복 (i = 1)
     visited[1]이 false이므로 visited[1] = true 설정
     arr[0] = 1 설정
